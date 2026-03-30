@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ThemeToggle from "./components/ThemeToggle";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <ThemeToggle />
       <Routes>
-        <Route path="/" element={<div className="pt-24 px-10 text-[#282b51] dark:text-[#f0f0ff]">Home Page Coming Soon</div>} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   );

@@ -7,7 +7,7 @@ import logo from "../assets/EduBridge_Logo.png";
 const navLinks = [
   { label: "Explore", href: "/courses" },
   { label: "Mentors", href: "/mentors" },
-  { label: "Business", href: "/business" },
+  { label: "Business", href: "/dashboard" },
   { label: "Resources", href: "/resources" },
 ];
 

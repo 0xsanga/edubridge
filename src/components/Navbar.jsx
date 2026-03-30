@@ -64,7 +64,7 @@ export default function Navbar() {
           </button>
           <Link
             to="/courses"
-            className="bg-gradient-to-r from-[#0050d5] to-[#7b9cff] text-white px-6 py-2.5 rounded-full font-bold text-sm hover:opacity-90 active:scale-95 transition-all shadow-md shadow-[#0050d5]/20"
+            className="border-2 border-[#0050d5] text-[#0050d5] dark:text-[#7b9cff] dark:border-[#7b9cff] px-6 py-2 rounded-full font-bold text-sm hover:bg-[#0050d5] hover:text-white dark:hover:bg-[#7b9cff] dark:hover:text-[#0D0D2B] transition-all"
           >
             Get Started
           </Link>
@@ -111,7 +111,7 @@ export default function Navbar() {
             <Link
               to="/courses"
               onClick={() => setMenuOpen(false)}
-              className="bg-gradient-to-r from-[#0050d5] to-[#7b9cff] text-white px-6 py-3 rounded-full font-bold text-sm text-center"
+              className="border-2 border-[#0050d5] text-[#0050d5] dark:border-[#7b9cff] dark:text-[#7b9cff] px-6 py-3 rounded-full font-bold text-sm text-center hover:bg-[#0050d5] hover:text-white transition-all"
             >
               Get Started
             </Link>

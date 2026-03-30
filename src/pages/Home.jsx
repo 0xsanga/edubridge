@@ -140,11 +140,11 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 mb-10">
               <Link
                 to="/courses"
-                className="bg-gradient-to-r from-[#0050d5] to-[#7b9cff] text-white px-8 py-4 rounded-full font-bold text-lg hover:opacity-90 active:scale-95 transition-all shadow-lg shadow-[#0050d5]/20"
+                className="bg-[#0050d5] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#0040b5] active:scale-95 transition-all shadow-lg shadow-[#0050d5]/20"
               >
                 Explore Courses
               </Link>
-              <button className="bg-[#e0e0ff] dark:bg-[#1a1a3e] text-[#0050d5] dark:text-[#7b9cff] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#d0d0ff] dark:hover:bg-[#252550] transition-all">
+              <button className="bg-[#0050d5] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#0040b5] active:scale-95 transition-all">
                 How it works
               </button>
             </div>
@@ -446,11 +446,11 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 to="/courses"
-                className="bg-white text-[#0050d5] px-10 py-4 rounded-full font-bold text-lg hover:bg-[#f0f0ff] active:scale-95 transition-all"
+                className="bg-[#0050d5] text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-[#0040b5] active:scale-95 transition-all"
               >
                 Get Pro Access
               </Link>
-              <button className="bg-white/10 text-white border border-white/30 px-10 py-4 rounded-full font-bold text-lg hover:bg-white/20 active:scale-95 transition-all">
+              <button className="bg-[#0050d5] text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-[#0040b5] active:scale-95 transition-all">
                 Schedule a Demo
               </button>
             </div>
